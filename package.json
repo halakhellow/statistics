@@ -1,0 +1,26 @@
+{
+  "name": "statistics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halakhellow/statistics.git"
+  },
+  "keywords": [],
+  "author": "hala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halakhellow/statistics/issues"
+  },
+  "homepage": "https://github.com/halakhellow/statistics#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
